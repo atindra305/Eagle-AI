@@ -1,7 +1,7 @@
 // To save the data
 window.saveDataAcrossSessions = true;
 
-const LOOK_DELAY = 15000 // 15 sec
+const LOOK_DELAY = 5000 // 5 sec
 const LEFT_CUTOFF = window.innerWidth / 4;
 const RIGHT_CUTOFF = window.innerWidth - window.innerWidth / 4;
 
@@ -37,8 +37,8 @@ webgazer.setGazeListener((data, timestamp) => {
 
     if(startLookTime + LOOK_DELAY < timestamp){
         console.log("here")
-        alert("Caught you stupid!");
-        
+        sendEmail()
+        alert("Caught you stupid!"); 
     }
 }).begin()
 
@@ -53,4 +53,19 @@ function getNewImage(next = false){
     if(next) img.classList.add("next")
     document.body.append(img)
     return img
+}
+
+function sendEmail() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "dark.knights2023@gmail.com",
+	Password : "$gharwaale2023",
+	To : 'mikezane1986@gmail.com',
+	From : "dark.knights2023@gmail.com",
+	Subject : "Student Found Cheating!!",
+	Body : "Student Found Looking Away from Screen for 15second",
+	})
+    // .then(
+	// 	message => alert("mail sent successfully")
+	// );
 }
