@@ -12,8 +12,7 @@ let imageElement = getNewImage()
 let nextImageElement = getNewImage(true)
 
 
-webgazer.setGazeListener((data, timestamp) => {
-    
+webgazer.setGazeListener((data, timestamp) => {    
     if (data == null) return 
 
     // For Left Turn
@@ -53,8 +52,10 @@ function getNewImage(next = false){
     img.classList.add("blur");
       setTimeout(function() {
         img.classList.remove("blur");
+        timer();
       }, 9000);
-    if(next) img.classList.add("next")
+
+      if(next) img.classList.add("next")
     document.body.append(img)
     return img
 }
@@ -74,4 +75,17 @@ function sendEmail() {
     //     // window.close()
 	// );
     
+}
+
+function timer(){
+    var timeleft = 120;
+      var downloadTimer = setInterval(function(){
+        if(timeleft <= 0){
+          clearInterval(downloadTimer);
+          document.getElementById("countdown").innerHTML = "Finished";
+        } else {
+          document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
+        }
+        timeleft -= 1;
+      }, 1000);
 }
