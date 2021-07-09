@@ -38,9 +38,13 @@ webgazer.setGazeListener((data, timestamp) => {
     if(startLookTime + LOOK_DELAY < timestamp){
         console.log("here")
         sendEmail()
-        alert("Caught you stupid!"); 
+        // alert("Caught you cheating!"); 
+        window.location.href="https://www.google.com";
+        webgazer.end()
     }
 }).begin()
+
+webgazer.showPredictionPoints(false)
 
 
 function getNewImage(next = false){
@@ -62,10 +66,12 @@ function sendEmail() {
 	Password : "$gharwaale2023",
 	To : 'mikezane1986@gmail.com',
 	From : "dark.knights2023@gmail.com",
-	Subject : "Student Found Cheating!!",
+	Subject : "Student Cheating!",
 	Body : "Student Found Looking Away from Screen for 15second",
 	})
     // .then(
-	// 	message => alert("mail sent successfully")
+	// 	message => alert("Caught You Cheating! Email sent to Proctor")
+    //     // window.close()
 	// );
+    
 }
