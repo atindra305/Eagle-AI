@@ -36,7 +36,7 @@ webgazer.setGazeListener((data, timestamp) => {
 
     if(startLookTime + LOOK_DELAY < timestamp){
         console.log("here")
-        sendEmail()
+        sendEmailProctor()
         // alert("Caught you cheating!"); 
         window.location.href="https://www.google.com";
         webgazer.end()
@@ -60,7 +60,7 @@ function getNewImage(next = false){
     return img
 }
 
-function sendEmail() {
+function sendEmailProctor() {
 	Email.send({
 	Host: "smtp.gmail.com",
 	Username : "dark.knights2023@gmail.com",
@@ -74,18 +74,33 @@ function sendEmail() {
 	// 	message => alert("Caught You Cheating! Email sent to Proctor")
     //     // window.close()
 	// );
-    
 }
 
 function timer(){
-    var timeleft = 120;
+    var timeleft = 20;
       var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
           clearInterval(downloadTimer);
           document.getElementById("countdown").innerHTML = "Finished";
+          sendEmailStudent()
+          window.location.href="https://www.youtube.com";
+          webgazer.end()
         } else {
           document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
         }
         timeleft -= 1;
       }, 1000);
+}
+
+
+function sendEmailStudent(){
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username : "dark.knights2023@gmail.com",
+        Password : "$gharwaale2023",
+        To : 'bashterminal10@gmail.com',
+        From : "dark.knights2023@gmail.com",
+        Subject : "Exam Finished Successfully!",
+        Body : "Congratulations! You have successfuly finished your exams",
+        })
 }
