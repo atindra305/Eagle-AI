@@ -73,8 +73,7 @@ webgazer.setGazeListener((data, timestamp) => {
         webgazer.end()
     }
 }).begin()
-
-// webgazer.showPredictionPoints(false)
+webgazer.showPredictionPoints(false)
 
 
 function getNewImage(next = false){
