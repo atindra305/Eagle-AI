@@ -12,5 +12,5 @@ Libraries
 UI Components
 5. Installation
 Instructions to RUN the project locally
-6. MIT License MANDATORY
+6. MIT License
 7. Screenshots (at least 2)
