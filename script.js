@@ -28,7 +28,7 @@ words.push(transcript + ', Confidence Score: ' + event.results[0][0].confidence)
 
 window.saveDataAcrossSessions = true;
 
-const LOOK_DELAY = 15000 // 15 sec
+const LOOK_DELAY = 10000 // 10 sec
 const LEFT_CUTOFF = window.innerWidth / 4;
 const RIGHT_CUTOFF = window.innerWidth - window.innerWidth / 4;
 
@@ -98,7 +98,7 @@ function sendEmailProctor() {
   To : 'mikezane1986@gmail.com',
   From : "dark.knights2023@gmail.com",
   Subject : "Student Cheating!",
-  Body : "Student Found Looking Away from Screen for 15second \n The list of words found are" + words.join("---------------"),
+  Body : "Student Found Looking Away from Screen for 10second \n The list of words found are" + words.join("---------------"),
   })
     // .then(
   //  message => alert("Caught You Cheating! Email sent to Proctor")
