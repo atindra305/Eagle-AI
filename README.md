@@ -1,4 +1,5 @@
 # https://atindra305.github.io/Eagle-AI/
+(Open only in Chrome)
 
 # Eagle-AI
 
