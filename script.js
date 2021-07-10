@@ -123,7 +123,7 @@ function sendEmailSpeech() {
 }
 
 function timer(){
-    var timeleft = 20;
+    var timeleft = 30;
       var downloadTimer = setInterval(function(){
         if(timeleft <= 0){
           clearInterval(downloadTimer);
