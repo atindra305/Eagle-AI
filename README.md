@@ -1,3 +1,9 @@
+![](https://img.shields.io/badge/-HTML-red)
+![](https://img.shields.io/badge/-CSS-blue)
+![](https://img.shields.io/badge/-Javascript-yellow)
+
+
+
 # Eagle-AI
 
 Eagle AI is an online teaching and proctoring system which can help many teachers to keep an eye on the student.
@@ -34,10 +40,19 @@ Various JS libraries were used in the implementation of the solution. One of the
 
 ### UI Components
 
+The User Interface consists of the webpages. The user can use the solution on various devices by just visiting the deployed webpage and logging into the website. Then the user can provide the accesss to the Microphone and Webcam which will be used in order to proctor the candidate. The proposed solution is a web based solution that makes it platform as well as device independent.
 
+## Installation
 
-5. Installation
-Instructions to RUN the project locally
+1. In order to run the project locally on the device one can either just visit the webpage or clone the github repository to their local device.
+
+2. The project can be unzipped and opened in any Text Editor preferably VSCode.
+
+3. The User can open the page index.html page in the browser.
+
+f4. The user can login to the system and use various services on their local device.
+
+For best results the use of Chrome browser is suggested.
 
 ## License
 [MIT](https://github.com/atindra305/Eagle-AI/blob/main/LICENSE)
