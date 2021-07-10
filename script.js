@@ -33,12 +33,15 @@ webgazer.setGazeListener((data, timestamp) => {
         lookDirection = null
     }
 
-
+    // Student found cheating
     if(startLookTime + LOOK_DELAY < timestamp){
         console.log("here")
         sendEmailProctor()
         // alert("Caught you cheating!"); 
+        
+        // TODO: Contact Your Administrator page
         window.location.href="https://www.google.com";
+
         webgazer.end()
     }
 }).begin()
@@ -83,7 +86,12 @@ function timer(){
           clearInterval(downloadTimer);
           document.getElementById("countdown").innerHTML = "Finished";
           sendEmailStudent()
-          window.location.href="https://www.youtube.com";
+          // window.location.href="https://www.youtube.com";
+
+          // TODO: Display Thank You Page
+
+          // TODO: DAfter 10 sec, display login page
+          window.location.href="login.html";
           webgazer.end()
         } else {
           document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
