@@ -20,15 +20,22 @@ Eagle AI being an AI proctoring systems provides proctoring using the audio and 
 
 ### FrontEnd
 
-The proposed solution consists of a 
+The proposed solution's frontend was build with the help of Java and CSS web technologies. There are various html and css files that are integrated together to create a user friendly and simple but effective user interface. The user on visiting the home page of Eagle AI is given information about the solution and a link to login further. The user then visits the login page and after entering the credentials, the user can move to further selecting the different services that the solution offers. Either it be class or examination the user can select either option to further get into the proctoring mode.
 
 ### BackEnd
 
+The system uses JavaScript for backend tasks to create an extremely responsive and effective solution for proctoring with the help of various frameworks. The various activities in the system run with the help of Javascript. Along with the github pages deployment, any user can visit the page from anywhere without any hassle. The backend forms a very strong foundation for any project and with the help of Javascript and Github pages, the backend works in a very efficient manner.
+
+## TechStack Used
+
+### Libraries
+
+Various JS libraries were used in the implementation of the solution. One of the library used is WebGazer that helps in eye tracking on various browser that made the work of tracking eyes very easy and platform independent. Another library that we used was the Speech Recogonition API for javascript, that helped in converting the audio coming from the candidate into text and helped in finding if the candidate was found talking to someone else. Another library that was used is the SMTP.js library that helped in sending the email from the system to the proctor about the status of the candidate and inform the proctor if the cadidate was found cheating.
+
+### UI Components
 
 
-4. TechStack Used
-Libraries
-UI Components
+
 5. Installation
 Instructions to RUN the project locally
 
