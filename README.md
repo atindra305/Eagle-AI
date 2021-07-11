@@ -22,6 +22,10 @@ Click the following to visit the Eagle AI Home page.
 
 Eagle AI being an AI proctoring systems provides proctoring using the audio and visual inputs from the exam candidate. The continuous proctoring analyses the candidates' attention to the exam-paper/teacher using audio analysis and eye tracking. The delivered system should be able to successfully detect if the candidate is cheating. And if found cheating the proctor or authorities should be informed via mail with all the necessary information. The provided system should be able to track the eyes to confirm if the cadidate is looking at anywhere else than the content provided along with the time elapsed. Also the system should be able to convert the audio to speech and also provide the confidence level of the text generated in order to confirm if there was any audio that was used unfairly.
 
+  ### For Testing Purpose:
+  1. Proctor Email ID: mikezane1986@gmail.com
+  2. Student Email ID: bashterminal10@gmail.com
+
 ## Project Components
 
 ### FrontEnd
