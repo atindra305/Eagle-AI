@@ -1,5 +1,6 @@
-![](https://img.shields.io/badge/-HTML-red)
-![](https://img.shields.io/badge/-CSS-blue)
+![](https://img.shields.io/badge/-HTML5-red)
+![](https://img.shields.io/badge/-CSS3-blue)
+![](https://img.shields.io/badge/-Bootstrap5-green)
 ![](https://img.shields.io/badge/-Javascript-yellow)
 
 
