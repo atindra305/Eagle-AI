@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/-CSS3-blue)
 ![](https://img.shields.io/badge/-Bootstrap5-green)
 ![](https://img.shields.io/badge/-Javascript-yellow)
-
+[![GitHub forks](https://img.shields.io/github/forks/dark-knights2023/Eagle-AI)](https://github.com/dark-knights2023/Eagle-AI/network)
 
 
 # Eagle-AI
