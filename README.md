@@ -25,7 +25,7 @@ Eagle AI is very easy to use. It doesn't require any pre-technical knowledge and
   ### Note: For best results the use of latest Chrome browser is suggested and only use it in Computer/Laptop.
 
 Click the following to visit the Eagle AI Home page.
-[Eagle-AI](https://atindra305.github.io/Eagle-AI)
+[Eagle-AI](https://dark-knights2023.github.io/Eagle-AI/)
 
 ## Self declared deliverables
 
