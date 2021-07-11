@@ -14,6 +14,7 @@ Eagle AI automatically informs the proctor about an unfair means via email by de
 Eagle AI is very easy to use. It doesn't require any pre-technical knowledge and has been carefully designed for the masses either from technical or non-technical background.
 
 ## Link to Deployed Page
+  ### Note: For best results the use of latest Chrome browser is suggested and only use it in Computer/Laptop.
 
 Click the following to visit the Eagle AI Home page.
 [Eagle-AI](https://atindra305.github.io/Eagle-AI)
@@ -55,8 +56,6 @@ The User Interface consists of the webpages. The user can use the solution on va
 3. The User can click on GO Live{live server extension by Ritwick Dey} button in the VSCode to start this website.
 
 4. The user can login to the system and use various services on their local device.
-
-## Note: For best results the use of latest Chrome browser is suggested and only use it in Computer/Laptop.
 
 ## License
 [MIT](https://github.com/atindra305/Eagle-AI/blob/main/LICENSE)
