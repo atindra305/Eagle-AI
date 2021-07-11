@@ -93,10 +93,10 @@ function getNewImage(next = false){
 function sendEmailProctor() {
   Email.send({
   Host: "smtp.gmail.com",
-  Username : "dark.knights2023@gmail.com",
+  Username : "email-app",
   Password : "***********",
-  To : 'mikezane1986@gmail.com',
-  From : "dark.knights2023@gmail.com",
+  To : 'email-proctor',
+  From : "email-app",
   Subject : "Student Cheating!",
   Body : "Student Found Looking Away from Screen for 10second \n The list of words found are" + words.join("---------------"),
   })
@@ -109,10 +109,10 @@ function sendEmailProctor() {
 function sendEmailSpeech() {
   Email.send({
   Host: "smtp.gmail.com",
-  Username : "dark.knights2023@gmail.com",
+  Username : "email-app",
   Password : "***********",
-  To : 'mikezane1986@gmail.com',
-  From : "dark.knights2023@gmail.com",
+  To : 'email-proctor',
+  From : "email-app",
   Subject : "Student Finished The Exam",
   Body : "Student Finished The Exam Properly Here Is The List Of Words" + words.join("---------------"),
   })
@@ -148,10 +148,10 @@ function timer(){
 function sendEmailStudent(){
     Email.send({
         Host: "smtp.gmail.com",
-        Username : "dark.knights2023@gmail.com",
+        Username : "email-app",
         Password : "************",
-        To : 'bashterminal10@gmail.com',
-        From : "dark.knights2023@gmail.com",
+        To : 'email-student',
+        From : "email-app",
         Subject : "Exam Finished Successfully!",
         Body : "Congratulations! You have successfuly finished your exams",
         })
