@@ -26,7 +26,7 @@ Eagle AI being an AI proctoring systems provides proctoring using the audio and 
 
 ### FrontEnd
 
-The proposed solution's frontend was build with the help of Java and CSS web technologies. There are various html and css files that are integrated together to create a user friendly and simple but effective user interface. The user on visiting the home page of Eagle AI is given information about the solution and a link to login further. The user then visits the login page and after entering the credentials, the user can move to further selecting the different services that the solution offers. Either it be class or examination the user can select either option to further get into the proctoring mode.
+The proposed solution's frontend was build with the help of Javascript and CSS web technologies. There are various html and css files that are integrated together to create a user friendly and simple but effective user interface. The user on visiting the home page of Eagle AI is given information about the solution and a link to login further. The user then visits the login page and after entering the credentials, the user can move to further selecting the different services that the solution offers. Either it be class or examination the user can select either option to further get into the proctoring mode.
 
 ### BackEnd
 
@@ -48,11 +48,11 @@ The User Interface consists of the webpages. The user can use the solution on va
 
 2. The project can be unzipped and opened in any Text Editor preferably VSCode.
 
-3. The User can open the page index.html page in the browser.
+3. The User can click on GO Live{live server extension by Ritwick Dey} button in the VSCode to start this website.
 
-f4. The user can login to the system and use various services on their local device.
+4. The user can login to the system and use various services on their local device.
 
-For best results the use of Chrome browser is suggested.
+## Note: For best results the use of latest Chrome browser is suggested and only use it in Computer/Laptop.
 
 ## License
 [MIT](https://github.com/atindra305/Eagle-AI/blob/main/LICENSE)
@@ -60,4 +60,4 @@ For best results the use of Chrome browser is suggested.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-7. Screenshots (at least 2)
+## Screenshots
