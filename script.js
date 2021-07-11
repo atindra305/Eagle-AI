@@ -94,7 +94,7 @@ function sendEmailProctor() {
   Email.send({
   Host: "smtp.gmail.com",
   Username : "dark.knights2023@gmail.com",
-  Password : "$gharwaale2023",
+  Password : "***********",
   To : 'mikezane1986@gmail.com',
   From : "dark.knights2023@gmail.com",
   Subject : "Student Cheating!",
@@ -110,7 +110,7 @@ function sendEmailSpeech() {
   Email.send({
   Host: "smtp.gmail.com",
   Username : "dark.knights2023@gmail.com",
-  Password : "$gharwaale2023",
+  Password : "***********",
   To : 'mikezane1986@gmail.com',
   From : "dark.knights2023@gmail.com",
   Subject : "Student Finished The Exam",
@@ -149,7 +149,7 @@ function sendEmailStudent(){
     Email.send({
         Host: "smtp.gmail.com",
         Username : "dark.knights2023@gmail.com",
-        Password : "$gharwaale2023",
+        Password : "************",
         To : 'bashterminal10@gmail.com',
         From : "dark.knights2023@gmail.com",
         Subject : "Exam Finished Successfully!",
