@@ -15,7 +15,7 @@ Eagle AI is very easy to use. It doesn't require any pre-technical knowledge and
 
 ## Team Members:
   1. [Saksham Khandelwal](https://github.com/Sakshamkhandelwal123)
-  2. [Asfahan Shah](https://github.com/e19cse116As)
+  2. [Asfahan Shah](https://github.com/a-shah1200)
   3. [Pranjal Bhardwaj](https://github.com/DecimatorMind)
   4. [Atindra Shekhar](https://github.com/atindra305)
   5. [Sadhil Chhabra](https://github.com/sadhilchhabra)
